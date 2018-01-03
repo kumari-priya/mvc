@@ -1,0 +1,28 @@
+/*Giving the container that holds the "games" a property of flex*/
+.gameList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: grey;
+  background-image: url("../../utils/Shelf-dark.png");
+
+}
+
+/*When games are added to the gameList container they will diplay in rows*/
+.game {
+	border: black;
+	border-style: solid;
+	width: 150px;
+	height: 150px;
+	/*font-size: 50px;*/
+	padding: 5px 5px;
+	justify-content: center;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.firstRow {
+	margin: 10px 0;
+}
